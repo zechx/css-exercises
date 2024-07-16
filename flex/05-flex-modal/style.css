@@ -60,6 +60,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  flex-shrink: 0;
 }
 
 .header {
@@ -72,7 +73,6 @@ body {
 .text {
   display: flex;
   margin-bottom: 16px;
-  margin-right: 16px;
 }
 
 .footer {
