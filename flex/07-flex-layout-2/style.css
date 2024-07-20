@@ -13,12 +13,18 @@ body {
 
 .content {
   display: flex;  
-  font-weight: bold;
+  font-weight: normal;
   text-align: center; 
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
   flex-flow: row wrap;
+  gap: 12px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+  text-align: left;
 }
 
 .sidebar {
@@ -26,10 +32,11 @@ body {
   background: royalblue;
   box-sizing: border-box;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .header {
-  height: 72px;
+  height: 40px;
   background: darkmagenta;
   color: white;
   display: flex;
@@ -38,13 +45,15 @@ body {
   justify-content: space-between;
   padding-left: 16px;
   padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .footer {
-  height: 72px;
+  height: 48px;
   background: #eee;
   color: darkmagenta;
-  
+  text-align: center;
+  padding-top: 26px;
 }
 
 
@@ -56,11 +65,17 @@ body {
   flex-direction: column;
   margin: 10px;
   max-width: 300px;
-  padding: 12px;
+  padding: 16px;
 }
 
 ul {
   list-style-type: none;/* this removes the dots on the list items*/
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 a {
